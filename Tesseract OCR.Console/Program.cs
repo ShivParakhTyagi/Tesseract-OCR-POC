@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                DiagramPdfReader.Current.Run();
+                System.Console.ReadKey();
+            }
         }
     }
 }
